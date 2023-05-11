@@ -30,4 +30,7 @@ else
   -include vendor/google_devices/redfin/proprietary/BoardConfigVendor.mk
 endif
 
+# Broken Build Rules
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 include device/google/redfin/BoardConfigVoltage.mk
